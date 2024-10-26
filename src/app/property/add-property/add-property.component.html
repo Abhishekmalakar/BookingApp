@@ -1,0 +1,41 @@
+<div class="card">
+  <div class="card-header">Add New Propety</div>
+  <div class="card-body">
+    <form (ngSubmit)="onSubmit(Form)" #Form="ngForm">
+      <div class="form-group col-12">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          #propName="ngModel"
+          ngModel
+          name="Name"
+          required
+        />
+        <span *ngIf="!propName.valid && propName.touched" class="error-block"
+          >please Enter Name</span
+        >
+      </div>
+
+      <div class="form-group col-12">
+        <label for="type">Type</label>
+        <input type="text" class="form-control" ngModel name="Type" />
+      </div>
+
+      <div class="form-group col-12">
+        <label for="price">Price</label>
+        <input type="text" class="form-control" ngModel name="proPrice" />
+      </div>
+      <div class="form-group col-12">
+        <button
+          [disabled]="!Form.valid"
+          type="submit"
+          class="btn btn-primary mr-2"
+        >
+          Save
+        </button>
+        <button type="reset" class="btn btn-primary">reset</button>
+      </div>
+    </form>
+  </div>
+</div>

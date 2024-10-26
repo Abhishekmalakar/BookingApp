@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "Name": "Birla House",
+    "Type": "House",
+    "Price": 12000
+  },
+  {
+    "Id": 2,
+    "Name": "SameBila",
+    "Type": "House",
+    "Price": 13300
+  },
+  {
+    "Id": 3,
+    "Name": "Tulsi Garden",
+    "Type": "Garden",
+    "Price": 35000
+  },
+  {
+    "Id": 4,
+    "Name": "Shive Villa",
+    "Type": "baglow",
+    "Price": 500000
+  },
+  {
+    "Id": 5,
+    "Name": "Bich lak",
+    "Type": "House",
+    "Price": 12000
+  },
+  {
+    "Id": 6,
+    "Name": "Hashrik House",
+    "Type": "House",
+    "Price": 15000
+  }
+]
